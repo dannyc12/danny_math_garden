@@ -87,9 +87,9 @@ async function loadModel() {
     const output = result.dataSync()[0];
 
     // Testing Only (delete later)
-    const outputCanvas = document.createElement('CANVAS');
-    cv.imshow(outputCanvas, image);
-    document.body.appendChild(outputCanvas);
+//     const outputCanvas = document.createElement('CANVAS');
+//     cv.imshow(outputCanvas, image);
+//     document.body.appendChild(outputCanvas);
 
     // Cleanup
     image.delete();
